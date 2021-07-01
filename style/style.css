@@ -1,0 +1,374 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+ }
+ 
+.wrapper {
+     max-width: 1440px;
+     width: 100%;
+     margin: 0 auto;
+   }
+
+.center {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /*Header*/
+
+header .first__icon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 51.8px;
+}
+
+header .first__icon .left__icon{
+   align-self: center;
+}
+
+header .first__icon .left__icon p{ 
+   font-family: 'Inter', sans-serif;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 17px;
+   display: inline-block;
+   margin-left: 7px;
+}
+
+header .first__icon .cent__icon{
+    justify-self: center;
+    align-self: center;
+}
+
+header .first__icon .right__icon img:first-child{
+    margin-right: 20px;
+}
+
+header .first__icon .right__icon{
+    justify-self: end;
+    align-self: center;
+}
+
+header .second__icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 29.6px;
+}
+
+header .second__icon a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif;
+}
+
+header .second__icon .item:nth-child(2){
+    margin-left: 67px;
+}
+
+header .second__icon .item:nth-child(3){
+    margin-left: 67px;
+    margin-right: 67px;
+}
+
+header .second__icon .item:nth-child(4){
+    margin-right: 67px;
+}
+
+header .second__icon .item span{
+   font-family: 'Inter', sans-serif;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+/* Section Title First*/
+
+.title__first{
+   padding-top: 70px;
+}
+
+.title__first .one__teddy{
+   height: 100vh;
+   max-height: 220px;
+   background-image: url(../images/Block.png);
+   background-repeat: no-repeat;
+}
+
+.teddy__info{
+    padding-top: 43px;
+    margin-left: 80px;
+}
+
+.teddy__info .title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 28px;
+    margin: 0;
+}
+
+.teddy__info .descr{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+    margin-top: 10px;
+
+}
+
+.teddy__info .button{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 16.5px 24px 16.5px 23px;
+    font-family:'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: inline-block;
+    margin-top: 24px;
+  }
+
+  .title__first .one__teddy .teddy__info .button{ 
+    background-color: #595CFF;
+
+  }
+
+  .teddy__info .button img{
+    padding-left: 12px;
+}
+
+/* Section Second Title*/
+
+.second__title{
+    margin-top: 40px;
+}
+
+.second__title .two__teddy{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+}
+
+.second__title .two__teddy .two__teddy-left{
+   height: 100vh;
+   max-height: 221px;
+   background-image: url(../images/Block1.png);
+   background-repeat: no-repeat;
+}
+
+.second__title .two__teddy .two__teddy-right{
+    height: 100vh;
+    max-height: 221px;
+    background-image: url(../images/teddy1.png);
+    background-repeat: no-repeat;
+ }
+
+ .second__title .two__teddy .two__teddy-left .teddy__info .button,
+ .second__title .two__teddy .two__teddy-right .teddy__info .button{
+    color: #000000;
+    padding: 0;
+  }
+
+  /* Section Top Container*/
+
+  .top__container{
+      margin-top: 82px;
+      margin-bottom: 60px;
+  }
+
+ .info__sale .top{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 2px;
+    margin-bottom: 44px;
+ }
+
+ .cards__sale{
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     grid-column-gap: 40px;
+ }
+
+ .cards__sale .card img{
+    border-radius: 4px;
+    max-width: 100%;
+ }
+
+ .cards__sale .card .name{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 8px;
+ }
+
+ .cards__sale .card .price{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin-bottom: 38px;
+ }
+
+ .cards__sale .card .price span{
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;text-decoration-line: line-through;
+    color: #82828B;
+    margin-left: 16px;
+ }
+
+ footer{
+    background: #F9F9FB;
+}
+
+footer .footer__wrap{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 100px;
+}
+
+footer .footer__wrap .footer__wrap-item .items{
+font-family: 'Inter', sans-serif;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+margin-top: 58px;
+margin-bottom: 12px;
+}
+
+footer .footer__wrap .footer__wrap-item .social__links p{
+font-family: 'Inter', sans-serif;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+margin-top: 18px;
+margin-bottom: 17px;
+}
+
+footer .footer__wrap .footer__wrap-item .social__links a{
+    margin-right: 20px;
+}
+
+.footer__wrap-item ul li a{
+text-decoration: none;
+font-family: 'Inter', sans-serif;
+color: #000000;
+font-weight: 500;
+font-size: 14px;
+line-height: 32px;
+}
+
+hr{
+width: 100%;
+opacity: 0.2;
+border: 1px solid #AFB1BD;
+margin-top: 60px;
+}
+
+footer .hr p{
+font-family: 'Inter', sans-serif;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;color: #AFB1BD;
+margin-top: 20px;
+margin-bottom: 33px;
+}
+
+/*Media */
+
+@media screen and (max-width: 1200px){
+    .center {
+        width: 90%;
+      }
+
+    .title__first .one__teddy,
+    .second__title .two__teddy .two__teddy-left{
+        background-position: center;
+    }
+
+
+}
+
+@media screen and (max-width: 1024px){
+    footer .footer__wrap .footer__wrap-item .social__links a{
+        margin-right: 5%;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+}
+
+@media screen and (max-width: 600px){
+    header .second__icon{
+        justify-content: space-between;
+    }
+
+    header .second__icon .item:nth-child(2),
+    header .second__icon .item:nth-child(3),
+    header .second__icon .item:nth-child(4){
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .teddy__info{
+        margin-left: 50px;
+    }
+
+    .second__title .two__teddy{
+        grid-template-columns: 1fr;
+        grid-row-gap: 40px;
+    }
+
+    .top__container {
+        margin-top: 60px;
+    }
+
+    .cards__sale{
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 40px;
+        grid-column-gap: 20px;
+    }
+
+    footer .footer__wrap{
+        grid-column-gap: 0;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .teddy__info{
+        margin-left: 20px;
+    }
+
+    .cards__sale{
+        grid-template-columns: 1fr;
+    }
+
+    .cards__sale .card .name{
+        font-size: 17px;
+    }
+
+    .cards__sale .card img{
+        width: 100%;
+    }
+
+    footer .footer__wrap{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 375px){
+    header .second__icon .item span{
+        font-size: 15px;
+    }
+}
